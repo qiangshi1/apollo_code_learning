@@ -119,6 +119,34 @@ d)的重载
 #### f) 类函数`ReentrantRWLock::ReadLock()`
 d)的重载
 
+### 18. `rw_lock_guard.h`
+
+#### a) `BUILD`的控制：
+
+```
+cc_library(
+    name = "rw_lock_guard",
+    hdrs = ["rw_lock_guard.h"],
+)
+```
+常规链接库.
+
+
+#### b) 类`ReadLockGuard`
+
+- 它是构造时加锁,析构时解锁.一行代码实现两行的功能;
+- 取消拷贝初始化.
+
+
+#### c) 类`WriteLockGuard`
+
+- 和b)极其类似.
+
+
+
+
+
+
 
 
 
