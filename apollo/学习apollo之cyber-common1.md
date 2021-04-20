@@ -35,7 +35,7 @@ cc_library(
 这个函数用到了C++11的新特性：尾置类型。
 
 它相当于：
-```
+```C++
 template <typename Enum>
 typename std::underlying_type<Enum>::type ToInt(Enum const value) {
   return static_cast<typename std::underlying_type<Enum>::type>(value);
