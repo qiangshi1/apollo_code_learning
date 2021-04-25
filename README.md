@@ -35,3 +35,16 @@
 - 添加文件 学习apollo之cyber-class_loader1.md
   - utility/class_factory.h & utility/class_factory.cc
 
+#### 2021年04月25日 
+
+- 学习apollo之cyber-class_loader1.md 中
+  - class_loader_utility.h&class_loader_utility.cc
+
+- 添加文 学习apollo之cyber-class_loader2.md 
+  - class_loader_register_macro.h
+  - class_loader_manager.h&class_loader_manager.cc
+
+
+
+
+
