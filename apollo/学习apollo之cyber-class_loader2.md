@@ -90,7 +90,7 @@ std::shared_ptr<Base> classObjSharePtr(class_object, std::bind(&ClassLoader::OnC
 - 模板函数。
 - 删除一个`Base*`
 
-### 27. `class_loader_manager.h`&`class_loader_manager.cc`
+### 28. `class_loader_manager.h`&`class_loader_manager.cc`
 
 - 有一个类`ClassLoaderManager`，这个类应该是管理多个`class_loader`
 - 这块看得云里雾里的原因大概有太多代码嵌套，类嵌套，this指针，另外一些类的目的（尤其是类名称的含义）不是很,,, 再看吧。
