@@ -10,7 +10,7 @@
 - ```C++
    public:                                                                  
     static DataNotifier *Instance(bool create_if_needed = true) {              
-      static DataNotifier *instance = nullptr;                                 
+      static ataNotifierD *instance = nullptr;                                 
       if (!instance && create_if_needed) {                                  
         static std::once_flag flag;                                         
         std::call_once(flag, [&] { instance = new (std::nothrow) DataNotifier(); }); 
